@@ -152,7 +152,7 @@ def choose_math_mode():
                     print("Exiting the program...")
                     print("If you want to be faster in exit, Please Press Ctrl+C or Ctrl+Z")
                     thanks = input("Please type 'thanks' to exit: ")
-                    if thanks.lower() == "thanks, exit, goodbye, quit":
+                    if thanks.lower() == "thanks":
                         sys.exit(0)
                     if thanks.lower() != "notexit":
                         return choose_math_mode()
@@ -175,4 +175,5 @@ if __name__ == "__main__":
     mode = choose_math_mode()
     # You can now use the 'mode' variable (e.g., 'Addition (+)') in the rest of your program
     # print(f"\nYour program is now running in: {mode}")
+
 
