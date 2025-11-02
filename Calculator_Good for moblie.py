@@ -21,8 +21,7 @@ def choose_math_mode():
         '2': 'Subtraction (-)',
         '3': 'Multiplication (*)',
         '4': 'Division (/)',
-        '5': 'Pygame(simple game damn)',
-        '6': 'Exit if you want to exit'
+        '5': 'Exit if you want to exit'
     }
 
     print("-" * 40)
@@ -87,9 +86,6 @@ def choose_math_mode():
                     print("= "+str(equali))
                     return choose_math_mode()
                 if choice == '5':
-                    print("You in Pygame mode, Please wait the pygame open...")
-                    return run_pygame_mode()
-                if choice == '6':
                     print("Exiting the program. Goodbye!")
                     print(10)
                     time.sleep(1)
@@ -137,6 +133,7 @@ if __name__ == "__main__":
     mode = choose_math_mode()
     # You can now use the 'mode' variable (e.g., 'Addition (+)') in the rest of your program
     # print(f"\nYour program is now running in: {mode}")
+
 
 
 
