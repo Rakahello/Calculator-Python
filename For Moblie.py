@@ -133,7 +133,3 @@ if __name__ == "__main__":
     mode = choose_math_mode()
     # You can now use the 'mode' variable (e.g., 'Addition (+)') in the rest of your program
     # print(f"\nYour program is now running in: {mode}")
-
-
-
-
