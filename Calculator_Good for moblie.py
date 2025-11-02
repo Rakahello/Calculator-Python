@@ -7,7 +7,7 @@ print("Made by An_npc *my name in roblox*")
 print("Also if the python not working Download sys")
 print("If there is bug please report it to my github")
 print("Dont forget to give me a star in github!")
-print("Created Date: 11/1/2025, Updated Date: 11/2/2025, Time: 10:14 AM")
+print("Created Date: 11/1/2025, Updated Date: 11/2/2025, Time: 10:40 AM")
 print("Version: 1.0.0")
 def choose_math_mode():
     """
@@ -137,5 +137,6 @@ if __name__ == "__main__":
     mode = choose_math_mode()
     # You can now use the 'mode' variable (e.g., 'Addition (+)') in the rest of your program
     # print(f"\nYour program is now running in: {mode}")
+
 
 
