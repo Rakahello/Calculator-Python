@@ -13,7 +13,7 @@ print("Created Date: 11/1/2025, Updated Date: 11/2/2025, Time: 10:14 AM")
 print("Version: 1.0.0")
 def run_pygame_mode():
     pygame.init()
-    screen = pygame.display.set_mode((845, 768),  pygame.RESIZABLE)
+    screen = pygame.display.set_mode((545, 568),  pygame.RESIZABLE)
     window = Window.from_display_module()
     pygame.display.set_caption("Games")
     clock = pygame.time.Clock()
@@ -175,5 +175,6 @@ if __name__ == "__main__":
     mode = choose_math_mode()
     # You can now use the 'mode' variable (e.g., 'Addition (+)') in the rest of your program
     # print(f"\nYour program is now running in: {mode}")
+
 
 
